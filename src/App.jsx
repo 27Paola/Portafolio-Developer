@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
+import Home from "./Components/Home";
+import Skils from "./Components/Skils";
+import Proyects from "./Components/Proyects";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -12,7 +14,13 @@ function App() {
       <Navbar darkMode={darMode} setDarkMode={setDarkMode} />
 
       <main className="bg-white dark:bg-dark text-dark dark:text-white">
-        <Hero />
+        <Home />
+        <Skils />
+        <br/>
+        <br/>
+        <Proyects />
+        <br/>
+        <br/>
       </main>
     </div>
   )
