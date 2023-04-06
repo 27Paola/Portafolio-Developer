@@ -8,9 +8,9 @@ import cuatro from "../assets/avatar-5.png"
 import cinco from "../assets/avatar-6.png"
 import seis from "../assets/avatar-7.png"
 
-const Proyects = () => {
+const Prollects = () => {
 
-    const proyects = [
+    const prollects = [
         {
             id: 1,
             imagen: uno,
@@ -61,16 +61,16 @@ const Proyects = () => {
 
             <br />
 
-            <div className='grid gap-4 px-8 md:px-36 lg:gap-14 lg:grid-cols-3'>
+            <div className='grid gap-4 px-8 md:px-36 md:grid-cols-2 lg:gap-14 lg:grid-cols-3'>
 
-                {proyects.map(({ id, imagen, title, github, demo }) => (
+                {prollects.map(({ id, imagen, title, github, demo }) => (
                     <div key={id} className='max-w-lg flex flex-col justify-center items-center shadow-md shadow-yellow dark:shadow-blue rounded-3xl overflow-hidden m-0'>
                     <br/>
                         <h2 className=' font-Gochi font-bold text-2xl md:text-4xl'>{title}</h2>
                         <img className='' src={imagen} alt={title} width={250} />
                         <div className='w-full flex flex-row justify-center gap-5 items-end text-xl'>
-                            <a href={github}><FiGithub className='mb-3' /></a>
-                            <a href={demo}><FiClipboard  className='mb-3'/></a>
+                            <a href={github} target='_blank'><FiGithub  className='mb-3' /></a>
+                            <a href={demo} target='_blank'><FiClipboard   className='mb-3'/></a>
                         </div>
                     </div>
                 ))}
@@ -80,4 +80,4 @@ const Proyects = () => {
     )
 }
 
-export default Proyects;
+export default Prollects;
