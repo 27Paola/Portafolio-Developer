@@ -2,8 +2,8 @@ import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Skils from "./Components/Skils";
-import Proyects from "./Components/Proyects";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Prollects from "./Components/Prollects";
+import Services from "./Components/Services";
 
 function App() {
   // ---------Modo DIA Y NOCHE-------
@@ -18,9 +18,12 @@ function App() {
         <Skils />
         <br/>
         <br/>
-        <Proyects />
+        <br/>
+        <Prollects />
         <br/>
         <br/>
+        <br/>
+        <Services />
       </main>
     </div>
   )
