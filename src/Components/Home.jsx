@@ -30,7 +30,7 @@ const Hero = () => {
             <br />
 
             <p className='max-w-xl font-bold font-Quicksand'>
-                Soy una desarrolladora Full-Stack apasionada por el diseño y la parte Frontend, y en mi portafolio puedo mostrar mis habilidades en la creación de aplicaciones web, trabajo en equipo entre otras. Además, puedo implementar estos diseños utilizando tecnologías Frontend como HTML, CSS y JavaScript,  trabajar con frameworks populares como React para crear interfaces de usuario dinámicas y responsivas, por otro lado puedo trabajar en la parte Backend de la aplicación utilizando tecnologías como Node.js, gestionar eficazmente los datos de la aplicación utilizando bases de datos como MySQL y MongoDB, en resumen se puede ver mi experiencia en el desarrollo de aplicaciones web, donde puedo demostrar mi habilidad para combinar el diseño y la funcionalidad creando soluciones innovadoras y atractivas.
+            Soy una desarrolladora Full-Stack apasionada por el diseño y la parte Frontend. En su portafolio se muestran sus habilidades en la creación de aplicaciones web, trabajo en equipo, implementación de diseños utilizando tecnologías como React, por otro lado la gestión de datos en la parte Backend utilizando tecnologías para bases de datos. En resumen, tiene experiencia en el desarrollo de aplicaciones web, combina habilidades de diseño y funcionalidad para crear soluciones innovadoras y atractivas.
             </p>
             {/* -----Animacion-de-flecha---- */}
             <div>

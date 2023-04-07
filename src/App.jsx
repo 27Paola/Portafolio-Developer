@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Skils from "./Components/Skils";
 import Prollects from "./Components/Prollects";
 import Services from "./Components/Services";
+import Contact from "./Components/Contact";
 
 function App() {
   // ---------Modo DIA Y NOCHE-------
@@ -24,6 +25,10 @@ function App() {
         <br/>
         <br/>
         <Services />
+        <br/>
+        <br/>
+        <br/>
+        <Contact />
       </main>
     </div>
   )

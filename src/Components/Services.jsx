@@ -33,10 +33,10 @@ const Services = () => {
         <section className=''>
             <h3 className='flex flex-row justify-center items-center text-3xl font-DynaPuff font-bold'>Servicios<img src={gato} width={50} /> </h3>
 
-            <div className='flex justify-center mt-20'>
+            <div className='flex justify-center mt-10'>
                 <div className='max-w-xl flex flex-col gap-8 bg-center items-center justify-center px-8'>
                     {services.map(({ id, image, name, comment }) => (
-                        <div className='flex p-4 justify-center items-center rounded-xl shadow-md shadow-dark dark:shadow-dark'>
+                        <div className='flex p-4 justify-center items-center rounded-xl'>
                             <div className='w-1/3'>
                                 <img
                                     src={image}
@@ -52,7 +52,6 @@ const Services = () => {
                 </div>
                
             </div>
-            <br/>
             <p className='flex justify-center items-cente px-5 font-Quicksand font-bold text-xl md:text-xl'>Te ofreco varios servicios como desarrolladora, Full-Stack.</p>
         </section>
     )
