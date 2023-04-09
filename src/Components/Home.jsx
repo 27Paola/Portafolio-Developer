@@ -6,12 +6,9 @@ const Hero = () => {
 
 
     return (
-        <section className='min-h-screen flex flex-col items-center p-4  text-center '>
+        <div name="Home" className=' min-h-screen flex flex-col items-center p-4  text-center '>
             <h2 className='font-Gochi text-5xl md:text-6xl lg:text-8xl text-pink mt-24'>Paola Sanchez</h2>
             <h3 className=' font-DynaPuff text-xl md:text-2xl lg:text-4xl text-blue'>Developer Full-Stack</h3>
-
-
-
 
             {/* ----Imagen o Perfil---- */}
             <div>
@@ -37,9 +34,8 @@ const Hero = () => {
                 <div className='flex  justify-center items-center animate-bounce pt-8 text-3xl '>
                     <BsArrowBarDown />
                 </div>
-
             </div>
-        </section>
+        </div>
     )
 }
 

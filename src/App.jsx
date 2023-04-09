@@ -2,9 +2,12 @@ import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Skils from "./Components/Skils";
-import Prollects from "./Components/Prollects";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import Projects from "./Components/Projects";
+import HamburgerMenu from "./Components/HamburguerMenu";
+
 
 function App() {
   // ---------Modo DIA Y NOCHE-------
@@ -17,18 +20,21 @@ function App() {
       <main className="bg-white dark:bg-dark text-dark dark:text-white">
         <Home />
         <Skils />
-        <br/>
-        <br/>
-        <br/>
-        <Prollects />
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
+        <Projects />
+        <br />
+        <br />
+        <br />
         <Services />
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
         <Contact />
+        <br />
+        <br />
+        <Footer />
       </main>
     </div>
   )

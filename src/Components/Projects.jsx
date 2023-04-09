@@ -8,9 +8,9 @@ import cuatro from "../assets/avatar-5.png"
 import cinco from "../assets/avatar-6.png"
 import seis from "../assets/avatar-7.png"
 
-const Prollects = () => {
+const Projects  = () => {
 
-    const prollects = [
+    const projects  = [
         {
             id: 1,
             imagen: uno,
@@ -56,14 +56,14 @@ const Prollects = () => {
     ]
 
     return (
-        <div>
+        <div name="Projects" className='h-screen'>
             <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'><img src={gato} width={50} />Proyectos</h3>
 
             <br />
 
             <div className='grid gap-4 px-8 md:px-36 md:grid-cols-2 lg:gap-14 lg:grid-cols-3'>
 
-                {prollects.map(({ id, imagen, title, github, demo }) => (
+                {projects.map(({ id, imagen, title, github, demo }) => (
                     <div key={id} className='max-w-lg flex flex-col justify-center items-center shadow-md shadow-yellow dark:shadow-blue rounded-3xl overflow-hidden m-0'>
                     <br/>
                         <h2 className=' font-Gochi font-bold text-2xl md:text-4xl'>{title}</h2>
@@ -80,4 +80,4 @@ const Prollects = () => {
     )
 }
 
-export default Prollects;
+export default Projects;
