@@ -12,7 +12,7 @@ const Contact = () => {
             {/* ---bottom form------- */}
             <div className='flex justify-center items-center'>
 
-                <div className='form p-8 text-left w-5/6'>
+                <div className='form p-8 text-left w-5/6 md:w-3/5'>
 
                     <form action="https://getform.io/f/beacd1d6-b10f-49b9-8563-7c1ee3f439b9" method='POST'>
                         <div className='w-full'>
@@ -49,11 +49,17 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center justify-center'>
-                            <button className='my-8 bg-gradient-to-r from-dark to-teal-500 text-white px-6 py-3 font-bold font-DynaPuff uppercase rounded-2xl tracking-wider cursor-pointer hover:scale-105 duration-200'> Enviar Mensaje</button>
+                        <div className='flex items-center justify-center mt-8 mx-10 text-xs font-Gochi font-bold md:text-xl lg:text-2xl'>
+                            <button className="relative px-6 py-3 font-bold text-black group h-12">
+                                <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                                <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
+                                <span class="relative">Enviar Mensaje</span></button>
                         </div>
                     </form>
                 </div>
+
+                {/*------ Animacion---- */}
+                
             </div>
         </section>
     )

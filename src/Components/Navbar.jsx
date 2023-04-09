@@ -5,6 +5,7 @@ import Logo from '../assets/logo  paola.png';
 import LogoWhite from '../assets/image (1).png';
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
+import HamburguerMenu from './HamburguerMenu';
 
 const Navbar = ({ darkMode, setDarkMode }) => {
     {/* // ----REDES SOCIALES----- */ }
@@ -39,7 +40,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                     }
                 </div>
                 {/* -----REDES SOCIALES--- */}
-                <div className='flex justify-center gap-4 md:w-1/3 text-2xl w-full md:gap-20 md:text-3xl'>
+                <div className='flex justify-center items-center gap-4  text-2xl w-full md:gap-6 md:text-3xl'>
                     {REDES.map(({ id, Link, icon }) => (
                         <a href={Link}
                             key={id} target='_blank'
@@ -49,16 +50,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 </div>
 
                 {/*----Iconos-----  */}
-                <div onClick={() => setDarkMode(!darkMode)}>
+                <div className='fixed bottom-6 right-6 z-50 text-[#b7a79b] dark:text-white' onClick={() => setDarkMode(!darkMode)}>
                     {
                         darkMode ?
                             <GiMoonOrbit className='text-4xl cursor-pointer animate-bounce' />
                             :
                             <GiSunCloud className='text-4xl cursor-pointer animate-bounce' />
                     }
-
                 </div>
-
+                <HamburguerMenu />
             </nav>
         </div>
     )
