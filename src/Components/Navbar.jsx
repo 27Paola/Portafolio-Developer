@@ -50,12 +50,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 </div>
 
                 {/*----Iconos-----  */}
-                <div className='fixed bottom-6 right-6 z-50 text-[#1c130e] dark:text-white' onClick={() => setDarkMode(!darkMode)}>
+                <div className='fixed bottom-6 right-6 z-50 text-[#1c130e] dark:text-white bg-pink p-3 rounded-full animate-bounce' onClick={() => setDarkMode(!darkMode)}>
                     {
                         darkMode ?
-                            <GiMoonOrbit className='text-4xl cursor-pointer animate-bounce' />
+                            <GiMoonOrbit className='text-4xl cursor-pointer' />
                             :
-                            <GiSunCloud className='text-4xl cursor-pointer animate-bounce' />
+                            <GiSunCloud className='text-4xl cursor-pointer' />
                     }
                 </div>
                 <HamburguerMenu />

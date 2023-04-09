@@ -30,9 +30,6 @@ const Hero = () => {
             </p>
             {/* -----Animacion-de-flecha---- */}
             <div>
-                <div className='flex  justify-center items-center animate-bounce pt-8 text-3xl '>
-                    <BsArrowBarDown />
-                </div>
             </div>
         </div>
     )
