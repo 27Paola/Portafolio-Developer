@@ -4,10 +4,9 @@ import { BsArrowBarDown } from 'react-icons/bs'
 
 const Hero = () => {
 
-
     return (
         <div name="Home" className=' min-h-screen flex flex-col items-center p-4  text-center '>
-            <h2 className='font-Gochi text-5xl md:text-6xl lg:text-8xl text-pink mt-24'>Paola Sanchez</h2>
+            <h2 className='font-Gochi text-5xl md:text-6xl lg:text-8xl text-pink mt-32'>Paola Sanchez</h2>
             <h3 className=' font-DynaPuff text-xl md:text-2xl lg:text-4xl text-blue'>Developer Full-Stack</h3>
 
             {/* ----Imagen o Perfil---- */}

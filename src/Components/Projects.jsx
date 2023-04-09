@@ -56,10 +56,8 @@ const Projects  = () => {
     ]
 
     return (
-        <div name="Projects" className='h-screen'>
+        <div name="Projects">
             <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'><img src={gato} width={50} />Proyectos</h3>
-
-            <br />
 
             <div className='grid gap-4 px-8 md:px-36 md:grid-cols-2 lg:gap-14 lg:grid-cols-3'>
 
@@ -76,6 +74,13 @@ const Projects  = () => {
                 ))}
             </div>
 
+            <div  className='flex flex-col items-center p-4 text-center'>
+                <a href='https://github.com/27Paola?tab=repositories' target='_blank' className='flex  justify-center items-center mt-8 relative px-28 py-4 font-bold text-black group dark:text-white'>
+                    <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 dark:bg-blue group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                    <span class="absolute inset-0 w-full h-full border-4 border-black dark:border-white"></span>
+                    <span class="text-focus-in relative font-Gochi text-xl">Ver mas</span>
+                </a>
+            </div>
         </div>
     )
 }

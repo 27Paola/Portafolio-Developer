@@ -3,6 +3,7 @@ import gato from "../assets/gato-5.gif"
 
 const Contact = () => {
     return (
+        <div name="Contact">
         <section>
             <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'><img src={gato} className='flex flex-row' width={50} />Contactame</h3>
             <br />
@@ -62,6 +63,7 @@ const Contact = () => {
                 
             </div>
         </section>
+        </div>
     )
 }
 

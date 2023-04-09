@@ -30,7 +30,7 @@ const Services = () => {
     ]
 
     return (
-        <section className=''>
+        <div name="Services">
             <h3 className='flex flex-row justify-center items-center text-3xl font-DynaPuff font-bold'>Servicios<img src={gato} width={50} /> </h3>
 
             <div className='flex justify-center mt-10'>
@@ -53,7 +53,7 @@ const Services = () => {
                
             </div>
             <p className='flex justify-center items-cente px-5 font-Quicksand font-bold text-xl md:text-xl'>Te ofreco varios servicios como desarrolladora, Full-Stack.</p>
-        </section>
+        </div>
     )
 }
 
