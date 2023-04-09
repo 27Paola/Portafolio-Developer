@@ -95,4 +95,12 @@
     box-shadow: none;
   }
 
+  body::-webkit-scrollbar, #descripScroll::-webkit-scrollbar{
+    width: 8px;
+  }
+  body::-webkit-scrollbar-thumb, #descripScroll::-webkit-scrollbar-thumb{
+    background-color: #ffc0cd;
+    border-radius: 10px;
+  }
+
   

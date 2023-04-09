@@ -13,9 +13,9 @@ import exprees from "../assets/exprees.png"
 import gato from "../assets/gatito-1.gif"
 
 
-const Skils = () => {
+const Skills = () => {
 
-  const Skils = [
+  const Skills = [
     {
       id: 1,
       imagen: html,
@@ -75,7 +75,7 @@ const Skils = () => {
   ]
 
   return (
-    <section>
+    <div name="Skills" >
       <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'>Habilidades<img className='' src={gato} width={50} /></h3>
       <br />
       <p className='flex justify-center items-cente px-5 font-Quicksand font-bold md:text-xl '>En este apartado te enseño los programas y lenguajes en los cuales tengo conocimiento como programadora Full-Stack.</p>
@@ -84,7 +84,7 @@ const Skils = () => {
 
       {/* --------HERRAMIENTAS------- */}
       <div className='grid gap-6 px-8 grid-cols-2 md:px-36 md:grid-cols-3'>
-      {Skils.map(({id, imagen, title}) => (
+      {Skills.map(({id, imagen, title}) => (
           <div key={id} className='flex flex-col items-center p-5 shadow-sm shadow-blue dark:shadow-pink rounded-2xl duration-200 ease-in-out hover:scale-75'>
 
             <img src={imagen} alt={title} className='object-contain' width={90}/>
@@ -93,8 +93,8 @@ const Skils = () => {
         ))
       }
       </div>
-    </section>
+    </div>
   )
 }
 
-export default Skils;
+export default Skills;

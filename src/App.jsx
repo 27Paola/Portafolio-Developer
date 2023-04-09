@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import Skils from "./Components/Skils";
+import Skills from "./Components/Skills";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
@@ -19,7 +19,7 @@ function App() {
 
       <main className="bg-white dark:bg-dark text-dark dark:text-white">
         <Home />
-        <Skils />
+        <Skills />
         <br />
         <br />
         <br />

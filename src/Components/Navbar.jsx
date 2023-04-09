@@ -40,7 +40,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                     }
                 </div>
                 {/* -----REDES SOCIALES--- */}
-                <div className='flex justify-center items-center gap-4  text-2xl w-full md:gap-6 md:text-3xl'>
+                <div className='flex justify-center items-center gap-4 text-2xl w-full md:gap-6 md:text-3xl'>
                     {REDES.map(({ id, Link, icon }) => (
                         <a href={Link}
                             key={id} target='_blank'
@@ -50,7 +50,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 </div>
 
                 {/*----Iconos-----  */}
-                <div className='fixed bottom-6 right-6 z-50 text-[#b7a79b] dark:text-white' onClick={() => setDarkMode(!darkMode)}>
+                <div className='fixed bottom-6 right-6 z-50 text-[#1c130e] dark:text-white' onClick={() => setDarkMode(!darkMode)}>
                     {
                         darkMode ?
                             <GiMoonOrbit className='text-4xl cursor-pointer animate-bounce' />
