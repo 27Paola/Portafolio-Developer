@@ -10,7 +10,7 @@ import { TiSocialGithubCircular, TiSocialLinkedinCircular } from 'react-icons/ti
 const Navbar = ({ darkMode, setDarkMode }) => {
     return (
         <div className='bg-white dark:bg-dark text-blue dark:text-pink fixed z-40 w-full shadow-sm shadow-black/20 '>
-            <nav className='flex justify-between items-center p-5'>
+            <nav className='flex justify-between items-center xp-2'>
 
                 {/* ------Logo------- */}
                 <div setDarkMode={() => setDarkMode(!darkMode)}>
