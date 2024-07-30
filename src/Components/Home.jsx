@@ -13,7 +13,7 @@ const Hero = () => {
             <div>
                 <img src={avatar} alt='avatar' className='w-60 h-60 object-cover object-top pt-5'
                 />
-                <a href='/mi-resum.pdf' target='_blank' className='flex  justify-center items-center mt-5 relative px-6 py-3 font-bold text-black group dark:text-white'>
+                <a href='/Curriculum.pdf' target='_blank' className='flex  justify-center items-center mt-5 relative px-6 py-3 font-bold text-black group dark:text-white'>
                     <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 dark:bg-blue group-hover:translate-x-0 group-hover:translate-y-0"></span>
                     <span class="absolute inset-0 w-full h-full border-4 border-black dark:border-white"></span>
                     <span class="text-focus-in relative font-Gochi text-xl">Resume o CV</span>
@@ -34,8 +34,4 @@ const Hero = () => {
         </div>
     )
 }
-
-
-
-
 export default Hero;
