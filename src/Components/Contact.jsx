@@ -16,30 +16,30 @@ const Contact = () => {
                 <div className='form p-8 text-left w-5/6 md:w-3/5'>
 
                     <form action="https://getform.io/f/beacd1d6-b10f-49b9-8563-7c1ee3f439b9" method='POST'>
-                        <div className='w-full'>
+                        <div className='w-full font-Quicksand font-bold'>
                             <div className='flex flex-col'>
-                                <label className='capitalize text-xl py-2 font-bold font-Gochi text-pink'>
+                                <label className='capitalize text-xl py-2 text-pink'>
                                     Nombre
                                 </label>
                                 <input type='text' name='name' className='border-2 border-pink rounded-xl p-3 flex focus: outline-none' />
                             </div>
 
                             <div className='flex flex-col my-2'>
-                                <label className='capitalize text-xl py-2  font-bold font-Gochi text-pink'>
+                                <label className='capitalize text-xl py-2 text-pink'>
                                     Telefono
                                 </label>
                                 <input type='text' name='name' className='border-2 border-pink rounded-xl p-3 flex focus: outline-none' />
                             </div>
 
                             <div className='flex flex-col my-2'>
-                                <label className='capitalize text-xl py-2 font-bold font-Gochi text-pink'>
+                                <label className='capitalize text-xl py-2 text-pink'>
                                     Correo
                                 </label>
                                 <input type='text' name='name' className='border-2 border-pink rounded-xl p-3 flex focus: outline-none' />
                             </div>
 
                             <div className='flex flex-col my-2'>
-                                <label className='capitalize text-xl py-2 font-bold font-Gochi text-pink'>
+                                <label className='capitalize text-xl py-2 font-bold text-pink'>
                                     Mensaje
                                 </label>
                                 <textarea
@@ -50,7 +50,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center justify-center mt-8 mx-10 text-xs font-Gochi font-bold md:text-xl lg:text-2xl'>
+                        <div className='flex items-center justify-center mt-8 mx-10 text-xs font-DynaPuff font-bold md:text-xl lg:text-xl'>
                             <button className="relative px-6 py-3 font-bold text-black group h-12">
                                 <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
                                 <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
