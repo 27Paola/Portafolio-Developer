@@ -19,6 +19,8 @@ function App() {
 
       <main className="bg-white dark:bg-dark text-dark dark:text-white">
         <Home />
+        <br/>
+        <br />
         <Skills />
         <br />
         <br />

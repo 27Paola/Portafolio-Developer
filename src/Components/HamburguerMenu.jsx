@@ -9,7 +9,7 @@ const HamburguerMenu = () => {
 
 
   return (
-  <div className='fixed z-40 container h-[80px] px-12 md:px-8 flex justify-end items-end font-DynaPuff mb-16'>
+  <div className='fixed z-40 container h-[80px] px-16 md:px-8 flex justify-end items-end font-Quicksand font-bold mb-14'>
 
       {/* Menu */}
       <ul className='hidden gap-3 lg:flex'>
