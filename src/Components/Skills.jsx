@@ -76,9 +76,9 @@ const Skills = () => {
 
   return (
     <div name="Skills" >
-      <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'>Habilidades<img className='' src={gato} width={50} /></h3>
+      <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-5xl'>Habilidades<img className='' src={gato} width={50} /></h3>
       <br />
-      <p className='flex justify-center items-cente px-5 font-Quicksand font-bold md:text-xl '>En este apartado te enseño los programas y lenguajes en los cuales tengo conocimiento como programadora Full-Stack.</p>
+      <p className='flex justify-center items-cente  px-5 font-Quicksand font-bold md:text-base'>Tengo más habilidades que puedes conocer en mi LinkedIn o en mi currículum (arriba). Aquí te muestro algunos de los programas y lenguajes que manejo como programadora. </p>
       <br/>
       <br/>
 
@@ -88,7 +88,7 @@ const Skills = () => {
           <div key={id} className='flex flex-col items-center p-5 shadow-sm shadow-blue dark:shadow-pink rounded-2xl duration-200 ease-in-out hover:scale-75'>
 
             <img src={imagen} alt={title} className='object-contain' width={90}/>
-            <h3 className='mt-5 font-Gochi font-bold text-2xl'>{title}</h3>
+            <h3 className='mt-5 font-Quicksand font-bold text-2xl'>{title}</h3>
           </div>
         ))
       }

@@ -11,20 +11,8 @@ import seis from "../assets/avatar-7.png"
 const Projects  = () => {
 
     const projects  = [
-        {
-            id: 1,
-            imagen: uno,
-            title: "Primer proyecto",
-            github: "https://github.com/27Paola/Horimiya.git",
-            demo: "https://horimiya-sa3s.vercel.app/"
-        },
-        {
-            id: 2,
-            imagen: dos,
-            title: "Deezer",
-            github: "https://github.com/27Paola/deezer-paola-.git",
-            demo: "https://deezer-paola.vercel.app/"
-        },
+        
+        
         {
             id: 3,
             imagen: tres,
@@ -53,11 +41,26 @@ const Projects  = () => {
             github: "https://github.com/programateacademy/PROGRAMATE-SCHOOL-BACK.git",
             demo: "https://programate-team-front.vercel.app/"
         },
+        {
+            id: 1,
+            imagen: uno,
+            title: "Horimiya",
+            github: "https://github.com/27Paola/Horimiya",
+            demo: "https://horimiya-sa3s.vercel.app/"
+        },
+        {
+        
+            id: 6,
+            imagen: dos,
+            title: "PowerFix",
+            github: "https://github.com/TheLostHeaven/Front-End-Grupo5",
+        },
+
     ]
 
     return (
         <div name="Projects">
-            <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-6xl'><img src={gato} width={50} />Proyectos</h3>
+            <h3 className='flex flex-row justify-center items-center font-DynaPuff font-semibold text-3xl md:text-5xl'><img src={gato} width={50} />Proyectos</h3>
 
             <div className='grid gap-4 px-8 md:px-36 md:grid-cols-2 lg:gap-14 lg:grid-cols-3'>
 
@@ -78,7 +81,7 @@ const Projects  = () => {
                 <a href='https://github.com/27Paola?tab=repositories' target='_blank' className='flex  justify-center items-center mt-8 relative px-28 py-4 font-bold text-black group dark:text-white'>
                     <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-red-300 dark:bg-blue group-hover:translate-x-0 group-hover:translate-y-0"></span>
                     <span class="absolute inset-0 w-full h-full border-4 border-black dark:border-white"></span>
-                    <span class="text-focus-in relative font-Gochi text-xl">Ver mas</span>
+                    <span class="text-focus-in relative font-DynaPuff text-xl">Ver mas</span>
                 </a>
             </div>
         </div>

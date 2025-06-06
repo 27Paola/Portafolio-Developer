@@ -49,7 +49,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
           {/*----Iconos-----  */}
           <div
-            className="fixed bottom-6 right-6 z-50 text-white dark:text-dark bg-pink p-3 rounded-full border-2 border-white dark:border-dark animate-bounce"
+            className="fixed bottom-6 right-6 z-50 text-white dark:text-dark bg-pink p-3 rounded-full border-2 border-white dark:border-dark"
             onClick={() => setDarkMode(!darkMode)}
           >
             {darkMode ? (
